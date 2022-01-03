@@ -1,0 +1,4 @@
+# vim: syn=neomuttrc
+
+push "aenriched.c<enter>aflags.c<enter>afunctions.c<enter>agit_ver.c<enter>ahandler.c<enter>ahdrline.c<enter>ahelp.c<enter>ahook.c<enter>aicommands.c<enter>ainit.c<enter>"
+

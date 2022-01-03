@@ -1,0 +1,6 @@
+# vim: syn=neomuttrc
+
+push "9<enter><tag-entry><tag-entry><group-alternatives>"
+push "5<enter><tag-entry><tag-entry><group-alternatives>"
+push "3<enter><tag-entry><tag-entry><tag-entry><tag-entry><tag-entry><tag-entry><tag-entry><group-alternatives>"
+

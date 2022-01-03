@@ -1,0 +1,4 @@
+# vim: syn=neomuttrc
+
+push "aalternates.c<enter>acommand_parse.c<enter>acommands.c<enter>acomplete.c<enter>aconststrings.c<enter>acontext.c<enter>acopy.c<enter>adlg_postpone.c<enter>aeditmsg.c<enter>"
+

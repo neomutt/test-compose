@@ -1,0 +1,23 @@
+set help = no
+unset record
+set postpone = no
+set postponed = ~/mail/postponed.mbox
+set editor="shuf -n 100 /usr/share/dict/words | fmt >> %s"
+set attach_format="%u%D%I %t%4n %T%.70d%> [%.7m/%.10M]"
+
+set history = 100
+set history_file = "~/.mutthistory"
+set history_remove_dups = yes
+set save_history = 100
+
+macro index   <F1> "<enter-command>source test-start-compose.rc<enter>"
+macro compose <F2> "<enter-command>source test-add-nine-files.rc<enter>"
+macro compose <F3> "<enter-command>source test-add-nine-more-files.rc<enter>"
+macro compose <F4> "3<enter><tag-entry><tag-entry><tag-entry><group-alternatives>"
+macro compose <F5> "9<enter><tag-entry><tag-entry><tag-entry><group-alternatives>"
+macro compose <F6> "3<enter><tag-entry>9<enter><tag-entry><group-alternatives>"
+
+macro compose <F7> "aalternates.c<enter>"
+macro compose <F8> "<enter-command>source test-nest-within-nest.rc<enter>"
+
+# vim: syn=neomuttrc
