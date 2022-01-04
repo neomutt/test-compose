@@ -1,0 +1,8 @@
+macro index   <F1> "<mail>john.doe@example.com<enter>test<enter>"
+macro compose <F2> "aalternates.c<enter>acommand_parse.c<enter>acommands.c<enter>acomplete.c<enter>aconststrings.c<enter>acontext.c<enter>acopy.c<enter>adlg_postpone.c<enter>aeditmsg.c<enter>"
+macro compose <F3> "aenriched.c<enter>"
+macro compose <F4> "3<enter><tag-entry><tag-entry><tag-entry><group-alternatives>"
+macro compose <F5> "9<enter><tag-entry><tag-entry><tag-entry><group-alternatives>"
+macro compose <F6> "3<enter><tag-entry>9<enter><tag-entry><group-alternatives>"
+
+# vim: syn=neomuttrc
