@@ -10,14 +10,20 @@ set history_file = "~/.mutthistory"
 set history_remove_dups = yes
 set save_history = 100
 
-macro index   <F1> "<enter-command>source test-start-compose.rc<enter>"
-macro compose <F2> "<enter-command>source test-add-nine-files.rc<enter>"
-macro compose <F3> "<enter-command>source test-add-nine-more-files.rc<enter>"
+# macro index   <F1> "<enter-command>source test-start-compose.rc<enter>"
+# macro compose <F2> "<enter-command>source test-add-nine-files.rc<enter>"
+# macro compose <F3> "<enter-command>source test-add-nine-more-files.rc<enter>"
+
+macro index   <F1> "<mail>john.doe@example.com<enter>test<enter>"
+macro compose <F2> "aalternates.c<enter>acommand_parse.c<enter>acommands.c<enter>acomplete.c<enter>aconststrings.c<enter>acontext.c<enter>acopy.c<enter>adlg_postpone.c<enter>aeditmsg.c<enter>"
+# macro compose <F3> "aenriched.c<enter>aflags.c<enter>afunctions.c<enter>agit_ver.c<enter>ahandler.c<enter>ahdrline.c<enter>ahelp.c<enter>ahook.c<enter>aicommands.c<enter>ainit.c<enter>"
+macro compose <F3> "aenriched.c<enter>"
+
 macro compose <F4> "3<enter><tag-entry><tag-entry><tag-entry><group-alternatives>"
 macro compose <F5> "9<enter><tag-entry><tag-entry><tag-entry><group-alternatives>"
 macro compose <F6> "3<enter><tag-entry>9<enter><tag-entry><group-alternatives>"
 
-macro compose <F7> "aalternates.c<enter>"
-macro compose <F8> "<enter-command>source test-nest-within-nest.rc<enter>"
+# macro compose <F7> "aalternates.c<enter>"
+# macro compose <F8> "<enter-command>source test-nest-within-nest.rc<enter>"
 
 # vim: syn=neomuttrc
