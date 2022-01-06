@@ -1,0 +1,3 @@
+push "<attach-file>attachments/A.txt<enter><tag-entry>1<enter><tag-entry><group-alternatives>"
+
+# vim: syn=neomuttrc

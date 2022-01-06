@@ -1,0 +1,14 @@
+unset record
+unset signature
+
+set debug_level = 1
+set editor = "echo >> %s"
+set from = "john.doe@example.com"
+set help = no
+set postpone = no
+set postponed = "mail/postponed.mbox"
+set realname = "John Doe"
+set recall = no
+set spoolfile = "mail/inbox.mbox"
+
+# vim: syn=neomuttrc

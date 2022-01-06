@@ -1,0 +1,3 @@
+push "<postpone-message><recall-message><print-message><exit><quit>"
+
+# vim: syn=neomuttrc

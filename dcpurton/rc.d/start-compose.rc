@@ -1,0 +1,3 @@
+push "<mail>john.doe@example.com<enter>test<enter>"
+
+# vim: syn=neomuttrc
