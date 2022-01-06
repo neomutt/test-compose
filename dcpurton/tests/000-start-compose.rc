@@ -1,4 +1,10 @@
 source "../rc.d/setup.rc"
-push "<enter-command>source rc.d/start-compose.rc<enter><enter-command>source rc.d/run-test.rc<enter>"
+
+push "<enter-command>source rc.d/run-test.rc<enter>"
+push "<enter-command>source rc.d/start-compose.rc<enter>"
+
+# A single attachment
+#
+# - I     1 /tmp/neomutt-hostname-XXXX-XXXXXX-XXXXXXXXX
 
 # vim: syn=neomuttrc
