@@ -1,0 +1,18 @@
+source "../rc.d/setup.rc"
+
+push "<enter-command>source rc.d/run-test.rc<enter>"
+push "3<enter><detach-file>"
+push "<group-multilingual>"
+push "<edit-language>de<enter><tag-entry>"
+push "<edit-language>fr<enter><tag-entry>"
+push "1<enter><edit-language>en<enter><tag-entry>"
+push "<enter-command>source rc.d/attach-two.rc<enter>"
+push "<enter-command>source rc.d/start-compose.rc<enter>"
+
+# A group of three attachments as the fundamental part middle attachment detached
+#
+#   I     1 <no description>
+# - I     2 ├─>/tmp/neomutt-hostname-XXXX-XXXXXX-XXXXXXXXX
+#   A     3 └─>attachments/B.txt
+
+# vim: syn=neomuttrc

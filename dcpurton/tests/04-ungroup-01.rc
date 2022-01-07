@@ -1,0 +1,14 @@
+source "../rc.d/setup.rc"
+
+push "<enter-command>source rc.d/run-test.rc<enter>"
+push "<ungroup-attachment>"
+push "<tag-entry>1<enter><tag-entry><group-alternatives>"
+push "<enter-command>source rc.d/attach-one.rc<enter>"
+push "<enter-command>source rc.d/start-compose.rc<enter>"
+
+# A group of two attachments as the fundamental part ungrouped
+#
+# - I     1 /tmp/neomutt-hostname-XXXX-XXXXXX-XXXXXXXXX
+#   A     2 attachments/A.txt
+
+# vim: syn=neomuttrc

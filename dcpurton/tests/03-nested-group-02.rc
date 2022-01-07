@@ -1,0 +1,26 @@
+source "../rc.d/setup.rc"
+
+push "<enter-command>source rc.d/run-test.rc<enter>"
+push "5<enter><tag-entry><tag-entry><group-alternatives>"
+push "2<enter><tag-entry><tag-entry><group-alternatives>"
+push "<group-multilingual>"
+push "<edit-language>fr<enter><tag-entry>"
+push "<edit-language>fr<enter><tag-entry>"
+push "<edit-language>en<enter><tag-entry>"
+push "<edit-language>en<enter><tag-entry>"
+push "1<enter>"
+push "<enter-command>source rc.d/attach-four.rc<enter>"
+push "<enter-command>source rc.d/start-compose.rc<enter>"
+
+# A group of two groups of two attachments as the fundamental part with a third ungrouped attachment
+#
+#   I     1 <no description>
+#   I     2 ├─><no description>
+# - I     3 │ ├─>/tmp/neomutt-hostname-XXXX-XXXXXX-XXXXXXXXX
+#   A     4 │ └─>attachments/A.txt
+#   A     5 └─>Alternatives for "B.txt"
+#   A     6   ├─>attachments/B.txt
+#   A     7   └─>attachments/C.txt
+#   A     8 attachments/D.txt
+
+# vim: syn=neomuttrc

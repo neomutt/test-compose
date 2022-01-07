@@ -31,6 +31,12 @@ $(TESTDIR)/%.body: $(TESTDIR)/%.rc
           echo $(FAIL); \
         fi
 
+save: test
+	@echo Saving reference files
+	@for i in $(TESTDIR)/*.body; do \
+	  cp $$i $$i.ref; \
+	done
+
 clean:
 	@echo Cleaning up.
 	@rm -f $(TESTDIR)/*.body

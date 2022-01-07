@@ -1,0 +1,4 @@
+push "<attach-file>attachments/C.txt<enter>"
+push "<enter-command>source rc.d/attach-two.rc<enter>"
+
+# vim: syn=neomuttrc

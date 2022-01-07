@@ -1,0 +1,16 @@
+source "../rc.d/setup.rc"
+
+push "<enter-command>source rc.d/run-test.rc<enter>"
+push "<tag-entry>1<enter><tag-entry><group-alternatives>"
+push "<enter-command>source rc.d/attach-three.rc<enter>"
+push "<enter-command>source rc.d/start-compose.rc<enter>"
+
+# A group of two attachments as the fundamental part with two ungrouped attachments
+#
+#   I     1 <no description>
+# - I     2 ├─>/tmp/neomutt-hostname-XXXX-XXXXXX-XXXXXXXXX
+#   A     3 └─>attachments/C.txt
+#   A     4 attachments/A.txt
+#   A     5 attachments/B.txt
+
+# vim: syn=neomuttrc
