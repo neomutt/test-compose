@@ -26,9 +26,9 @@ $(TESTDIR)/%.body: $(TESTDIR)/%.rc
 	@cmp -s $@ $@.ref; \
 	RETVAL=$$?; \
 	if [ $$RETVAL -eq 0 ]; then \
-          echo $(PASS); \
+          /usr/bin/echo -e "$(PASS)"; \
         else \
-          echo $(FAIL); \
+          /usr/bin/echo -e $(FAIL); \
         fi
 
 save: test
