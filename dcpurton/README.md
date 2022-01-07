@@ -9,13 +9,14 @@
 
 - `make` in the top level directory runs the tests.
 - `make clean` cleans the test output files.
+- `make save` runs all the tests and updates all reference output files
 
 ## Adding tests
 
 Add files to the `rc.d` directory. They should all source `rc.d/setup.rc` and
 then include the keystrokes to set up the email (can use several `push`
 commands in reverse order) as well as the keystrokes to source
-`rc.d/run-test.rc`, e.g., `tests/001-single-group.rc` is:
+`rc.d/run-test.rc`, e.g., `tests/02-single-group-01.rc` is:
 
 ```
 source "../rc.d/setup.rc"
