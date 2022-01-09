@@ -4,6 +4,9 @@ set postpone = no
 set postponed = ~/mail/postponed.mbox
 set editor="shuf -n 100 /usr/share/dict/words | fmt >> %s"
 set attach_format="%u%D%I %t%4n %T%.70d%> [%.7m/%.10M]"
+set sleep_time = 0
+set imap_keepalive = 0
+set timeout = 1
 
 set history = 100
 set history_file = "~/.mutthistory"
@@ -14,7 +17,8 @@ set save_history = 100
 # macro compose <F2> "<enter-command>source test-add-nine-files.rc<enter>"
 # macro compose <F3> "<enter-command>source test-add-nine-more-files.rc<enter>"
 
-macro index   <F1> "<mail>john.doe@example.com<enter>test<enter>"
+macro index   <F1> "<mail>john.doe@example.com<enter>test<enter><enter-command>source l1<enter>"
+# macro index   <F1> "<mail>john.doe@example.com<enter>test<enter>"
 # macro compose <F2> "aalternates.c<enter>acommand_parse.c<enter>acommands.c<enter>acomplete.c<enter>aconststrings.c<enter>acontext.c<enter>acopy.c<enter>adlg_postpone.c<enter>aeditmsg.c<enter>"
 macro compose <F2> "afiles/Apple.txt<enter>afiles/Banana.txt<enter>afiles/Cherry.txt<enter>afiles/Damson.txt<enter>afiles/Elderberry.txt<enter>afiles/Fig.txt<enter>afiles/Guava.txt<enter>afiles/Hawthorn.txt<enter>afiles/Ilama.txt<enter>"
 # macro compose <F3> "aenriched.c<enter>aflags.c<enter>afunctions.c<enter>agit_ver.c<enter>ahandler.c<enter>ahdrline.c<enter>ahelp.c<enter>ahook.c<enter>aicommands.c<enter>ainit.c<enter>"
@@ -27,4 +31,5 @@ macro compose <F6> "3<enter><tag-entry>9<enter><tag-entry><group-alternatives>"
 # macro compose <F7> "aalternates.c<enter>"
 # macro compose <F8> "<enter-command>source test-nest-within-nest.rc<enter>"
 
+macro compose <F9> "<exit><f1>"
 # vim: syn=neomuttrc
