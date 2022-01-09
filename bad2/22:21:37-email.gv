@@ -17,10 +17,53 @@ digraph neomutt
 		color="#c0c0c0"
 	];
 
-	obj_0x610000003940 [
+	obj_0x610000002b40 [
 		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
 		<tr>
-			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000003940)</font></td>
+			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000002b40)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">file</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"neomutt-laptop-1001-766998-16180116897801825528"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">charset</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"utf-8"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">subtype</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"plain"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"TYPE_TEXT"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">encoding</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"ENC_7BIT"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">disposition</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"DISP_INLINE"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">bools</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"unlink"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x610000003640 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000003640)</font></td>
 		</tr>
 		<tr>
 			<td border="0" align="left">description</td>
@@ -55,50 +98,7 @@ digraph neomutt
 		<tr>
 			<td border="0" align="left">boundary</td>
 			<td border="0">=</td>
-			<td border="0" align="left">"obmmlczf2fjdv6l4"</td>
-		</tr>
-		</table>>
-	];
-
-	obj_0x610000002f40 [
-		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
-		<tr>
-			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000002f40)</font></td>
-		</tr>
-		<tr>
-			<td border="0" align="left">file</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"A.txt"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">charset</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"utf-8"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">subtype</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"plain"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">type</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"TYPE_TEXT"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">encoding</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"ENC_7BIT"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">disposition</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"DISP_ATTACH"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">bools</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"use_disp"</td>
+			<td border="0" align="left">"2ph5jfh453hm6irc"</td>
 		</tr>
 		</table>>
 	];
@@ -111,7 +111,7 @@ digraph neomutt
 		<tr>
 			<td border="0" align="left">file</td>
 			<td border="0">=</td>
-			<td border="0" align="left">"B.txt"</td>
+			<td border="0" align="left">"A.txt"</td>
 		</tr>
 		<tr>
 			<td border="0" align="left">charset</td>
@@ -154,6 +154,49 @@ digraph neomutt
 		<tr>
 			<td border="0" align="left">file</td>
 			<td border="0">=</td>
+			<td border="0" align="left">"B.txt"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">charset</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"utf-8"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">subtype</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"plain"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">type</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"TYPE_TEXT"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">encoding</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"ENC_7BIT"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">disposition</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"DISP_ATTACH"</td>
+		</tr>
+		<tr>
+			<td border="0" align="left">bools</td>
+			<td border="0">=</td>
+			<td border="0" align="left">"use_disp"</td>
+		</tr>
+		</table>>
+	];
+
+	obj_0x610000003240 [
+		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
+		<tr>
+			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000003240)</font></td>
+		</tr>
+		<tr>
+			<td border="0" align="left">file</td>
+			<td border="0">=</td>
 			<td border="0" align="left">"C.txt"</td>
 		</tr>
 		<tr>
@@ -184,20 +227,20 @@ digraph neomutt
 		<tr>
 			<td border="0" align="left">bools</td>
 			<td border="0">=</td>
-			<td border="0" align="left">"use_disp"</td>
+			<td border="0" align="left">"tagged,use_disp"</td>
 		</tr>
 		</table>>
 	];
 
-	obj_0x610000003740 [
+	obj_0x610000003340 [
 		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
 		<tr>
-			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000003740)</font></td>
+			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000003340)</font></td>
 		</tr>
 		<tr>
 			<td border="0" align="left">file</td>
 			<td border="0">=</td>
-			<td border="0" align="left">"I.txt"</td>
+			<td border="0" align="left">"D.txt"</td>
 		</tr>
 		<tr>
 			<td border="0" align="left">charset</td>
@@ -227,20 +270,20 @@ digraph neomutt
 		<tr>
 			<td border="0" align="left">bools</td>
 			<td border="0">=</td>
-			<td border="0" align="left">"use_disp"</td>
+			<td border="0" align="left">"tagged,use_disp"</td>
 		</tr>
 		</table>>
 	];
 
-	obj_0x610000003840 [
+	obj_0x610000003740 [
 		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
 		<tr>
-			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000003840)</font></td>
+			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000003740)</font></td>
 		</tr>
 		<tr>
 			<td border="0" align="left">description</td>
 			<td border="0">=</td>
-			<td border="0" align="left">"Alternatives for "D.txt""</td>
+			<td border="0" align="left">"Alternatives for "E.txt""</td>
 		</tr>
 		<tr>
 			<td border="0" align="left">subtype</td>
@@ -270,20 +313,20 @@ digraph neomutt
 		<tr>
 			<td border="0" align="left">boundary</td>
 			<td border="0">=</td>
-			<td border="0" align="left">"nquzt35443d3zdiy"</td>
+			<td border="0" align="left">"e2hm2j3l3qgywvhd"</td>
 		</tr>
 		</table>>
 	];
 
-	obj_0x610000003240 [
+	obj_0x610000003440 [
 		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
 		<tr>
-			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000003240)</font></td>
+			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000003440)</font></td>
 		</tr>
 		<tr>
 			<td border="0" align="left">file</td>
 			<td border="0">=</td>
-			<td border="0" align="left">"D.txt"</td>
+			<td border="0" align="left">"E.txt"</td>
 		</tr>
 		<tr>
 			<td border="0" align="left">charset</td>
@@ -326,92 +369,6 @@ digraph neomutt
 		<tr>
 			<td border="0" align="left">file</td>
 			<td border="0">=</td>
-			<td border="0" align="left">"G.txt"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">charset</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"utf-8"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">subtype</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"plain"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">type</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"TYPE_TEXT"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">encoding</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"ENC_7BIT"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">disposition</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"DISP_ATTACH"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">bools</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"use_disp"</td>
-		</tr>
-		</table>>
-	];
-
-	obj_0x610000003640 [
-		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
-		<tr>
-			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000003640)</font></td>
-		</tr>
-		<tr>
-			<td border="0" align="left">file</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"H.txt"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">charset</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"utf-8"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">subtype</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"plain"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">type</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"TYPE_TEXT"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">encoding</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"ENC_7BIT"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">disposition</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"DISP_ATTACH"</td>
-		</tr>
-		<tr>
-			<td border="0" align="left">bools</td>
-			<td border="0">=</td>
-			<td border="0" align="left">"use_disp"</td>
-		</tr>
-		</table>>
-	];
-
-	obj_0x610000003440 [
-		label=<<table cellspacing="0" border="1" rows="*" color="#d0d0d0">
-		<tr>
-			<td border="0" align="left" bgcolor="#2020ff" port="top" colspan="3"><font color="#000000" point-size="20"><b>Body</b></font> <font point-size="12">(0x610000003440)</font></td>
-		</tr>
-		<tr>
-			<td border="0" align="left">file</td>
-			<td border="0">=</td>
 			<td border="0" align="left">"F.txt"</td>
 		</tr>
 		<tr>
@@ -448,17 +405,16 @@ digraph neomutt
 	];
 
 
-	obj_0x610000002f40 -> obj_0x610000003040 [  edgetooltip="Body->next" color="#008000" ];
 	obj_0x610000003040 -> obj_0x610000003140 [  edgetooltip="Body->next" color="#008000" ];
-	obj_0x610000003140 -> obj_0x610000003740 [  edgetooltip="Body->next" color="#008000" ];
-	{ rank=same obj_0x610000002f40 obj_0x610000003040 obj_0x610000003140 obj_0x610000003740 };
-	obj_0x610000003940 -> obj_0x610000002f40 [  edgetooltip="Body->parts" color="#ff0000" ];
-	obj_0x610000003240 -> obj_0x610000003540 [  edgetooltip="Body->next" color="#008000" ];
-	obj_0x610000003540 -> obj_0x610000003640 [  edgetooltip="Body->next" color="#008000" ];
-	{ rank=same obj_0x610000003240 obj_0x610000003540 obj_0x610000003640 };
-	obj_0x610000003840 -> obj_0x610000003240 [  edgetooltip="Body->parts" color="#ff0000" ];
-	obj_0x610000003940 -> obj_0x610000003840 [  edgetooltip="Body->next" color="#008000" ];
-	obj_0x610000003840 -> obj_0x610000003440 [  edgetooltip="Body->next" color="#008000" ];
-	{ rank=same obj_0x610000003940 obj_0x610000003840 obj_0x610000003440 };
+	obj_0x610000003140 -> obj_0x610000003240 [  edgetooltip="Body->next" color="#008000" ];
+	obj_0x610000003240 -> obj_0x610000003340 [  edgetooltip="Body->next" color="#008000" ];
+	{ rank=same obj_0x610000003040 obj_0x610000003140 obj_0x610000003240 obj_0x610000003340 };
+	obj_0x610000003640 -> obj_0x610000003040 [  edgetooltip="Body->parts" color="#ff0000" ];
+	obj_0x610000002b40 -> obj_0x610000003640 [  edgetooltip="Body->next" color="#008000" ];
+	obj_0x610000003440 -> obj_0x610000003540 [  edgetooltip="Body->next" color="#008000" ];
+	{ rank=same obj_0x610000003440 obj_0x610000003540 };
+	obj_0x610000003740 -> obj_0x610000003440 [  edgetooltip="Body->parts" color="#ff0000" ];
+	obj_0x610000003640 -> obj_0x610000003740 [  edgetooltip="Body->next" color="#008000" ];
+	{ rank=same obj_0x610000002b40 obj_0x610000003640 obj_0x610000003740 };
 
 }

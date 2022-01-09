@@ -3,15 +3,29 @@
 
 push <print-entry>
 push <group-alternatives>
-push 5<enter><tag-entry><tag-entry>
+push 5<enter><tag-entry>
+push 4<enter><tag-entry>
 
 # push <print-entry>
 push <group-alternatives>
-push 7<enter><tag-entry><tag-entry>
+push 9<enter><tag-entry>
+push 1<enter><tag-entry>
+push 3<enter><tag-entry>
+push 2<enter><tag-entry>
+
+push 1<enter><detach-file>
+
+push 7<enter><detach-file>
 
 push <group-alternatives>
-push 2<enter><tag-entry><tag-entry><tag-entry><tag-entry>
+push 8<enter><tag-entry>
+push 9<enter><tag-entry>
+push 6<enter><tag-entry>
+push 5<enter><tag-entry>
 
+push <attach-file>attachments/I.txt<enter>
+push <attach-file>attachments/H.txt<enter>
+push <attach-file>attachments/G.txt<enter>
 push <attach-file>attachments/F.txt<enter>
 push <attach-file>attachments/E.txt<enter>
 push <attach-file>attachments/D.txt<enter>
