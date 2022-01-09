@@ -1,3 +1,6 @@
+# Because of the nature of the `<push>` function
+# the operations are executed from bottom to top.
+
 push <print-entry>
 push <group-alternatives>
 push 5<enter><tag-entry>
@@ -29,3 +32,5 @@ push <attach-file>attachments/D.txt<enter>
 push <attach-file>attachments/C.txt<enter>
 push <attach-file>attachments/B.txt<enter>
 push <attach-file>attachments/A.txt<enter>
+
+# vim: syn=neomuttrc
