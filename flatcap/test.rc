@@ -17,8 +17,8 @@ set save_history = 100
 # macro compose <F2> "<enter-command>source test-add-nine-files.rc<enter>"
 # macro compose <F3> "<enter-command>source test-add-nine-more-files.rc<enter>"
 
-macro index   <F1> "<mail>john.doe@example.com<enter>test<enter><enter-command>source l1<enter>"
-# macro index   <F1> "<mail>john.doe@example.com<enter>test<enter>"
+# macro index   <F1> "<mail>john.doe@example.com<enter>test<enter><enter-command>source l1<enter>"
+macro index   <F1> "<mail>john.doe@example.com<enter>test<enter>"
 # macro compose <F2> "aalternates.c<enter>acommand_parse.c<enter>acommands.c<enter>acomplete.c<enter>aconststrings.c<enter>acontext.c<enter>acopy.c<enter>adlg_postpone.c<enter>aeditmsg.c<enter>"
 macro compose <F2> "afiles/Apple.txt<enter>afiles/Banana.txt<enter>afiles/Cherry.txt<enter>afiles/Damson.txt<enter>afiles/Elderberry.txt<enter>afiles/Fig.txt<enter>afiles/Guava.txt<enter>afiles/Hawthorn.txt<enter>afiles/Ilama.txt<enter>"
 # macro compose <F3> "aenriched.c<enter>aflags.c<enter>afunctions.c<enter>agit_ver.c<enter>ahandler.c<enter>ahdrline.c<enter>ahelp.c<enter>ahook.c<enter>aicommands.c<enter>ainit.c<enter>"
